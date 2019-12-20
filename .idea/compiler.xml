@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microserviceapi" />
+        <module name="microserviceconfig3344" />
+        <module name="microserviceconfigclient3355" />
+        <module name="microserviceconfigdeptclient8001" />
+        <module name="microserviceconfigeurekaclient7001" />
+        <module name="microserviceconsumerdept80" />
+        <module name="microserviceconsumerdeptfeign" />
+        <module name="microserviceconsumerhystrixdashboard" />
+        <module name="microserviceeureka7001" />
+        <module name="microserviceeureka7002" />
+        <module name="microserviceeureka7003" />
+        <module name="microserviceprovidedept8001" />
+        <module name="microserviceprovidedept8002" />
+        <module name="microserviceprovidedept8003" />
+        <module name="microserviceproviderdepthystrix8001" />
+        <module name="microservicezuulgateway9528" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice" target="1.8" />
+      <module name="microservice-zuul-gateway-9526" target="1.8" />
+      <module name="microserviceapi" target="1.8" />
+      <module name="microserviceconfig3344" target="1.8" />
+      <module name="microserviceconfigclient3355" target="1.8" />
+      <module name="microserviceconfigdeptclient8001" target="1.8" />
+      <module name="microserviceconfigeurekaclient7001" target="1.8" />
+      <module name="microserviceconsumerdept80" target="1.8" />
+      <module name="microserviceconsumerdeptfeign" target="1.8" />
+      <module name="microserviceconsumerhystrixdashboard" target="1.8" />
+      <module name="microserviceeureka7001" target="1.8" />
+      <module name="microserviceeureka7002" target="1.8" />
+      <module name="microserviceeureka7003" target="1.8" />
+      <module name="microserviceprovidedept8001" target="1.8" />
+      <module name="microserviceprovidedept8002" target="1.8" />
+      <module name="microserviceprovidedept8003" target="1.8" />
+      <module name="microserviceproviderdepthystrix8001" target="1.8" />
+      <module name="microservicezuulgateway9526" target="1.8" />
+      <module name="microservicezuulgateway9527" target="1.8" />
+      <module name="microservicezuulgateway9528" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

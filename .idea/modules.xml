@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice.iml" filepath="$PROJECT_DIR$/microservice/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-api/microserviceapi.iml" filepath="$PROJECT_DIR$/microservice/microservice-api/microserviceapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-config-3344/microserviceconfig3344.iml" filepath="$PROJECT_DIR$/microservice/microservice-config-3344/microserviceconfig3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-config-client-3355/microserviceconfigclient3355.iml" filepath="$PROJECT_DIR$/microservice/microservice-config-client-3355/microserviceconfigclient3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-config-dept-client-8001/microserviceconfigdeptclient8001.iml" filepath="$PROJECT_DIR$/microservice/microservice-config-dept-client-8001/microserviceconfigdeptclient8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-config-eureka-client-7001/microserviceconfigeurekaclient7001.iml" filepath="$PROJECT_DIR$/microservice/microservice-config-eureka-client-7001/microserviceconfigeurekaclient7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-consumer-dept-80/microserviceconsumerdept80.iml" filepath="$PROJECT_DIR$/microservice/microservice-consumer-dept-80/microserviceconsumerdept80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-consumer-dept-feign/microserviceconsumerdeptfeign.iml" filepath="$PROJECT_DIR$/microservice/microservice-consumer-dept-feign/microserviceconsumerdeptfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-consumer-hystrix-dashboard/microserviceconsumerhystrixdashboard.iml" filepath="$PROJECT_DIR$/microservice/microservice-consumer-hystrix-dashboard/microserviceconsumerhystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-eureka-7001/microserviceeureka7001.iml" filepath="$PROJECT_DIR$/microservice/microservice-eureka-7001/microserviceeureka7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-eureka-7002/microserviceeureka7002.iml" filepath="$PROJECT_DIR$/microservice/microservice-eureka-7002/microserviceeureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-eureka-7003/microserviceeureka7003.iml" filepath="$PROJECT_DIR$/microservice/microservice-eureka-7003/microserviceeureka7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-provide-dept-8001/microserviceprovidedept8001.iml" filepath="$PROJECT_DIR$/microservice/microservice-provide-dept-8001/microserviceprovidedept8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-provide-dept-8002/microserviceprovidedept8002.iml" filepath="$PROJECT_DIR$/microservice/microservice-provide-dept-8002/microserviceprovidedept8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-provide-dept-8003/microserviceprovidedept8003.iml" filepath="$PROJECT_DIR$/microservice/microservice-provide-dept-8003/microserviceprovidedept8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-provider-dept-hystrix-8001/microserviceproviderdepthystrix8001.iml" filepath="$PROJECT_DIR$/microservice/microservice-provider-dept-hystrix-8001/microserviceproviderdepthystrix8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice/microservice-zuul-gateway-9528/microservicezuulgateway9528.iml" filepath="$PROJECT_DIR$/microservice/microservice-zuul-gateway-9528/microservicezuulgateway9528.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,25 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luxin95/microservice-config.git #GitHub上面的git仓库名字
+          #uri: git@github.com:1156598192/microservicecloud-config.git  会访问不到数据要注意
+          username: luxin95
+          password: lx950608
+
+eureka:
+  instance:
+    instance-id: config-3344.com #默认名称修改
+    prefer-ip-address: true #访问路径可以显示IP地址
+  client:
+    register-with-eureka: true #是否注册
+    fetch-registry: true
+    service-url:
+#      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+      defaultZone: http://localhost:7001/eureka/  # 注册中心访问地址

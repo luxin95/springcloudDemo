@@ -1,0 +1,42 @@
+
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservice-zuul-gateway  #对外暴露的微服务名字
+
+
+eureka:
+  instance:
+    instance-id: zuul-gateway9527 #默认名称修改
+    prefer-ip-address: true #访问路径可以显示IP地址
+  client:
+    register-with-eureka: true #是否注册
+    fetch-registry: true
+    service-url:
+      # 集群:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+
+      # 单机
+      # defaultZone: http://localhost:7001/eureka/  # 注册中心访问地址
+
+#Info信息显示
+info:
+  app.name: microservice-zuul-gateway
+  companny.name: www.baidu.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+#zuul网关配置
+#  改before
+#  http://myzuul.com:9527/microservicecloud-dept/dept/get/2
+zuul:
+  prefix: /cq #统一设置前缀
+  routes:
+    mydept.serviceId: microservice-dept
+    mydept.path: /mydept/**
+  ignored-services: microservice-dept #忽略原有服务访问多个可以用"*"
+
+#  改after
+#  http://myzuul.com:9527/mydept/dept/get/1
